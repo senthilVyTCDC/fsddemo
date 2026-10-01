@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    {% load static %}    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <script src="{% static 'js/script.js' %}"></script>
+    </head>
+    <body>
+    <h1>To-Do List </h1>   
+    {{persons.name}} 
+    <!-- <img src ="{% static 'images/img2.jpg'%}" alt="Image" width="300" height="200">    -->
+    <div>
+        <label>Enter your Task Name</label>
+        <input type="text" name="taskname" id="taskname">
+        <button onclick="Display()">Add Task</button>
+    </div>
+    <div id="tasklist">
+        <h2>Task List</h2>
+        
+    </div>
+    </body>
+</html>
