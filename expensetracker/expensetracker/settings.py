@@ -78,9 +78,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME' : 'expense_tracker_jg',
-        'USER' : 'root',
-        'PASSWORD' : 'root@123',
-        'HOST' : 'localhost',
+        'USER' : 'sql_fsddemo_api_tcdc_in',
+        'PASSWORD' : '1275439f2441b8',
+        'HOST' : '169.58.6.103',
         'PORT' : '3306',
        
     }
