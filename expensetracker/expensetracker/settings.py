@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'expensetracker.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME' : 'expense_tracker_jg',
+        'NAME' : 'sql_fsddemo_api_tcdc_in',
         'USER' : 'sql_fsddemo_api_tcdc_in',
         'PASSWORD' : '1275439f2441b8',
-        'HOST' : '169.58.6.103',
+        'HOST' : 'localhost',
         'PORT' : '3306',
        
     }
